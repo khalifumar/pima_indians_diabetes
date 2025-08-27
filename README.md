@@ -22,13 +22,12 @@ Python, Streamlit, scikit-learn, Pandas, NumPy, Plotly, (opsional) SHAP
 Aplikasi ini adalah alat bantu skrining, bukan alat diagnosis. Keputusan klinis tetap harus melalui tenaga kesehatan.
 
 🚀 Cara Menjalankan (Lokal):
-'''
+Pada CMD ketik di lokasi tempat kamu menyimpan:
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run streamlit_app.py
-'''
 
 Catatan versi yang stabil (disarankan untuk Streamlit Cloud / lokal):
 - Python 3.11 (runtime.txt berisi 3.11)
